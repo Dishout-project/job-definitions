@@ -28,7 +28,7 @@ pipelineJob('frontendApi'){
     }
 }
 ```
-`pipelineJob('frontendApi')`: Name of the pipeline job.
+- `pipelineJob('frontendApi')`: Name of the pipeline job.
 `parameters`: top level block describing the paramaters used by the job. In this case, branch. Parameters can be different types: booleanParam, choiceParam, etc.
 `gitParam('branch')`: Defining the parameter allowing selection of Git branch.
 `definition`: Defining the workflow.
