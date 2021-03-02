@@ -1,5 +1,5 @@
 # job-definitions
-Repository containing Jenkins job definitions in the form of Job DSL scripts. 
+Repository containing Jenkins job definitions in the form of Job DSL scripts. The definition block shows that whilst this script definesthe behaviour and parameters used by the job such as the branch, the actual pipeline logic is fetched from the `job-definitions` repository with the repo being checked out using ssh and the path to the pipeline logic being the `seedJob.groovy` script.
 
 Below is an example of one of these scripts:
 
